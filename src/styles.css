@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  position: relative;
+  top: 50%;
+  left: 40%;
+}
+
+.light-div {
+  border: 0.5px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.light {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.green-light {
+  background-color: green;
+  display: none;
+}
+
+.yellow-light {
+  background-color: rgb(224, 224, 24);
+  display: none;
+}
+
+.red-light {
+  background-color: red;
+  display: none;
+}
+
+/* .green-light.active {
+  display: block;
+}
+
+.yellow-light.active {
+  display: block;
+}
+
+.red-light.active {
+  display: block;
+} */
+
+/* Intead of writing 3 more css */
+.active {
+  display: flex;
+}
